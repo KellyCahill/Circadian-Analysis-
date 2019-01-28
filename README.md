@@ -7,19 +7,24 @@ The purpose of this software is to demonstrate rhythmicity detection of circadia
 - Snowfall v1.84-6.1
 - doParallel v1.014
 - Lme4 v1.1-19
-- qalue v2.14.1 <br/>
+- qalue v2.14.1 (bioconductor) <br/>
 *This code has been tested on R.3.5.1 
 
 # Installation Instructions: 
-Download and unzip the folders to the desktop 
-"rhythmicity" folder contains code for rhythmicity detection
-"DE" folder contains code for DE analysis
+Download and unzip the folders to the desktop. The"rhythmicity" folder contains code for rhythmicity detection, and the 
+"DE" folder contains code for DE analysis.
 Save each folder to the desktop
-Install required packages: 
-Example:
+Install required packages listed above: 
+Example of cran packages:
 ```
 install.packages("minpack.lm") 
 library(minpack.lm)
+```
+For bioconductor packages: 
+```
+if (!requireNamespace("BiocManager", quietly = TRUE))
+    install.packages("BiocManager")
+BiocManager::install("qvalue", version = "3.8")
 ```
 Installation time: < 2 min
 
