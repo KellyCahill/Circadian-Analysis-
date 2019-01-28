@@ -6,7 +6,7 @@ The purpose of this software is to demonstrate rhythmicity detection of circadia
 - Snowfall v1.84-6.1
 - doParallel v1.014
 - Lme4 v1.1-19
-- qalue v2.14.1
+- qalue v2.14.1 <br/>
 *This code has been tested on R.3.5.1 
 
 # Installation Instructions: 
@@ -41,16 +41,16 @@ Clinical variables of interest include:
 - BestModelSelection.R is an external function required to run the main DE.R analysis
 - Run all external functions, so that they are in the R environment 
 - Run code as is in RhythmicityCode.R 
-- Run code as is in DE.R 
-*NOTE: Each method requires permutation. Permutations were set to 10 to save time and computation space. Permuted files are included in the DE and Rhythmicity folders to save reviewers time. If permutation files are recreated by the reviewer, output will be slightly different due to the randomness of permutation.
+- Run code as is in DE.R <br/>
+*NOTE: Each method requires permutation. Permutations were set to 10 to save time and computation space. Permuted files are included in the DE and Rhythmicity folders to save reviewers time. If permutation files are recreated by the reviewer, output will be slightly different due to the randomness of permutation. 
 
 # Expected output:
 - Example_result.csv is the example output from the observed_para_c_sorted variable. 
 - PDF plots are available in the Rhythmicity folder 
-- Example_result2.csv is the example output for the shift in rhythmicity analysis 
+- Example_result2.csv is the example output for the shift in rhythmicity analysis <br/>
 *NOTE: Because only control subjects are used in the example data, two groups were created using age to demonstrate gain and loss of rhythmicity 
 
-- Example_result3.csv in the DE folder includes 
+- Example_result3.csv in the DE folder includes <br/>
 *NOTE: Because only control subjects are used in the example data, effect of a binary indicator for time of day (morning vs night) is analyzed. 
 
 Estimated run time: 
