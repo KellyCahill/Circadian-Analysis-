@@ -45,12 +45,12 @@ Clinical variables of interest include:
 *NOTE: Each method requires permutation. Permutations were set to 10 to save time and computation space. Permuted files are included in the DE and Rhythmicity folders to save reviewers time. If permutation files are recreated by the reviewer, output will be slightly different due to the randomness of permutation. 
 
 # Expected output:
-- Example_result.csv is the example output from the observed_para_c_sorted variable. 
-- PDF plots are available in the Rhythmicity folder 
+- Example_result.csv is the example output of curve fitting parameters and p value. 
+- PDF plots of top circadian genes 
 - Example_result2.csv is the example output for the shift in rhythmicity analysis <br/>
 *NOTE: Because only control subjects are used in the example data, two groups were created using age to demonstrate gain and loss of rhythmicity 
 
-- Example_result3.csv in the DE folder includes <br/>
+- Example_result3.csv example of DE output including original p-value from the likelihood ratio test, corrected p-value, Benjamini Hochberg corrected p-value, and Storey's q value. <br/>
 *NOTE: Because only control subjects are used in the example data, effect of a binary indicator for time of day (morning vs night) is analyzed. 
 
 Estimated run time: 
