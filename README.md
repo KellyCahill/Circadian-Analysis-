@@ -27,7 +27,7 @@ BiocManager::install("qvalue", version = "3.8")
 ```
 Installation time: < 2 min
 
-# Clinical Data
+# Clinical Data:
 A subset of expression, and clinical data for 104 control subjects is available in csv form in the rhythmicity folder. 
 Clinical variables of interest include:
 - corrected time of death (TOD) in ZT. 
@@ -36,7 +36,7 @@ Clinical variables of interest include:
 - Gender 
 - Ethnicity
 
-# Expression data  
+# Expression data:  
 - 13914 genes (all genes that were used in the full analysis in the paper)
 - Data has already been filtered according to method discussed in the paper supplement 
 - Expression units are in log2 CPM 
