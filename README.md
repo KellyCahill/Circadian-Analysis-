@@ -47,7 +47,7 @@ Clinical variables of interest include:
 - Run all external functions, so that they are in the R environment 
 - Run code as is in RhythmicityCode.R 
 - Run code as is in DE.R <br/>
-*NOTE: Each method requires permutation. Permutations were set to 10 to save time and computation space. Permuted files are included in the DE and Rhythmicity folders to save reviewers time. If permutation files are recreated by the reviewer, output will be slightly different due to the randomness of permutation. 
+*NOTE: Each method requires permutation. Permutations were set to 10 to save time and computation space. Permuted files are included in the DE (DE NullData) and Rhythmicity (nullFolder) folders to save reviewers time. If permutation files are recreated by the reviewer, output will be slightly different due to the randomness of permutation. 
 
 # Expected output:
 - Example_result.csv is the example output of curve fitting parameters and p value. 
