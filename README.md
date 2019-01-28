@@ -1,5 +1,6 @@
 ## Circadian Analysis: Rhythmicity detection and DE analysis 
-The purpose of this software is to demonstrate rhythmicity detection of circadian patterns in gene expression profiles as well as DE analysis using a random intercept model with gene specific covariate selection.
+The purpose of this software is to demonstrate rhythmicity detection of circadian patterns in gene expression profiles as well as DE analysis using a random intercept model with gene specific covariate selection. Full analysis using this code can be found in the paper: Novel Circadian Rhythms in the Prefrontal Cortex in Schizophrenia Drive Differential Gene Expression (Seney et Al., 2018) 
+
 
 # Required R packages: 
 - minpack.lm v1.2-1
@@ -33,7 +34,7 @@ Clinical variables of interest include:
 
 # Expression data  
 - 13914 genes (all genes that were used in the full analysis in the paper)
-- Data has already been filtered according to method discussed in the supplement 
+- Data has already been filtered according to method discussed in the paper supplement 
 - Expression units are in log2 CPM 
 
 # Demo:
