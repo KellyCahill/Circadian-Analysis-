@@ -1,14 +1,13 @@
-### Circadian Analysis: Rhythmicity detection and DE analysis 
-
-Readme.txt file for Rhythmicity and DE Analysis created 1/24/2019
+## Circadian Analysis: Rhythmicity detection and DE analysis 
+The purpose of this software is to demonstrate rhythmicity detection of circadian patterns in gene expression profiles as well as DE analysis using a random intercept model with gene specific covariate selection.
 
 # Required R packages: 
-minpack.lm v1.2-1
-Snowfall v1.84-6.1
-doParallel v1.014
-Lme4 v1.1-19
-Value v2.14.1
-This code has been tested on R.3.5.1 
+- minpack.lm v1.2-1
+- Snowfall v1.84-6.1
+- doParallel v1.014
+- Lme4 v1.1-19
+- qalue v2.14.1
+*This code has been tested on R.3.5.1 
 
 # Installation Instructions: 
 Download and unzip the folders to the desktop 
